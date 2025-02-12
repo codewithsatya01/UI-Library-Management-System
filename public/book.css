@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #004466;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('library.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero input, .hero button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Book Categories */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.category {
+    background-color: #006699;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #004466;
+}
+
+/* About and Contact Sections */
+#about, #contact {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
